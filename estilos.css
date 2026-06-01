@@ -68,9 +68,8 @@
 
   .contact-links {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: flex-end;
+    gap: 20px;
+    margin-top: 20px;
   }
 
   .contact-links a {
@@ -104,6 +103,16 @@
   }
 
   .contact-icon svg { width: 13px; height: 13px; stroke: currentColor; fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+
+  .header-right {
+    display: flex;
+    justify-content: flex-end;
+    align-itmes: flex-start;
+  }
+
+ .header-right img {
+   max-height: 120px;
+ }
 
   main {
     max-width: 1200px;
