@@ -18,7 +18,7 @@
   }
 
   header {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 5rem 2rem 3.5rem;
     display: grid;
@@ -88,7 +88,6 @@
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
-    background: #f9f9f9;
     transition: border-color 0.2s, background 0.2s;
   }
 
@@ -100,7 +99,7 @@
   .contact-icon svg { width: 13px; height: 13px; stroke: currentColor; fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 
   main {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 3.5rem 2rem 5rem;
   }
