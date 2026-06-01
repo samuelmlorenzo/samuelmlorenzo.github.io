@@ -2,7 +2,7 @@
 
   :root {
     --ink: #1A1A18;
-    --ink-muted: #aaaaaa;
+    --ink-muted: #cccccc;
     --ink-faint: #A8A8A2;
     --accent: #ffffff;
     --accent-light: #aaaaaa;
@@ -49,7 +49,7 @@
     font-size: clamp(2.2rem, 5vw, 3.4rem);
     font-weight: 300;
     line-height: 1.08;
-    color: var(--ink);
+    color: #ffffff;
     margin-bottom: 1.1rem;
     letter-spacing: -0.02em;
   }
