@@ -2,18 +2,18 @@
 
   :root {
     --ink: #1A1A18;
-    --ink-muted: #6B6B65;
+    --ink-muted: #aaaaaa;
     --ink-faint: #A8A8A2;
-    --accent: #0d67c3;
-    --accent-light: #E8F0EC;
-    --border: rgba(26,26,24,0.10);
-    --border-hover: rgba(26,26,24,0.22);
+    --accent: #ffffff;
+    --accent-light: #aaaaaa;
+    --border: rgba(255,255,255,0.10);
+    --border-hover: rgba(255,255,255,0.22);
   }
 
   body {
     font-family: 'Helvetica Neue', Helvetica, 'Inter', Arial, sans-serif;
-    background: #ffffff;
-    color: var(--ink);
+    background: #1e1e1e;
+    color: #ffffff;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
