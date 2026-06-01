@@ -4,7 +4,7 @@
     --ink: #1A1A18;
     --ink-muted: #6B6B65;
     --ink-faint: #A8A8A2;
-    --accent: #2C5F4A;
+    --accent: #0d67c3;
     --accent-light: #E8F0EC;
     --border: rgba(26,26,24,0.10);
     --border-hover: rgba(26,26,24,0.22);
@@ -55,7 +55,7 @@
     font-size: 15px;
     line-height: 1.7;
     color: var(--ink-muted);
-    max-width: 480px;
+    max-width: 560px;
     font-weight: 300;
   }
 
