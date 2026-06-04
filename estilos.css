@@ -71,6 +71,7 @@
 
   .contact-links {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     margin-top: 20px;
   }
@@ -258,3 +259,17 @@
     color: var(--ink-faint);
     font-weight: 300;
   }
+
+@media screen and (min-width : 990px) {
+
+  .project-card {
+        width: calc(50% - 8px);
+  }
+}
+
+@media screen and (min-width : 575px) {
+
+  .project-card {
+        width: 100%;
+  }
+}
