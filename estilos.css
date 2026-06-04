@@ -134,8 +134,8 @@
   }
 
   .projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
     gap: 16px;
   }
 
@@ -148,6 +148,7 @@
     color: inherit;
     display: flex;
     flex-direction: column;
+    width: calc(25% - 12px);
     transition: border-color 0.25s, transform 0.25s, box-shadow 0.25s;
     position: relative;
   }
