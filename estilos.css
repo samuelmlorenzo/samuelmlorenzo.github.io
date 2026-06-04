@@ -260,7 +260,7 @@
     font-weight: 300;
   }
 
-@media screen and (min-width : 990px) {
+@media screen and (max-width : 990px) {
 
   .project-card {
         width: calc(50% - 8px);
