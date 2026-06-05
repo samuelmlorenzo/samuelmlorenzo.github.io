@@ -21,7 +21,7 @@ function renderProjects() {
     card.href = p.url;
     card.target = '_blank';
     card.rel = 'noopener';
-    card.className = 'project-card';
+    card.className = 'project-card w-25';
 
     card.innerHTML = `
       <div class="card-preview">
