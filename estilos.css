@@ -11,7 +11,7 @@
   }
 
   body {
-    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    font-family: Inter, Helvetica, Arial, sans-serif;
     background: #2a2a2a;
     color: #ffffff;
     min-height: 100vh;
@@ -72,13 +72,12 @@
   }
 
   h1 {
-    font-family: 'Helvetica Neue', Helvetica, 'Inter', Arial, sans-serif;
+    font-family: Inter, Helvetica, Arial, sans-serif;
     font-size: clamp(2.2rem, 5vw, 3.4rem);
     font-weight: 300;
-    line-height: 1.08;
+    line-height: 1.1;
     color: #ffffff;
     margin-bottom: 1.1rem;
-    letter-spacing: -0.02em;
   }
 
   h1 strong {
@@ -142,9 +141,9 @@
     align-items: flex-start;
   }
 
- .header-right img {
-   max-height: 220px;
- }
+  .header-right img {
+    max-height: 220px;
+  }
 
   main {
     max-width: 1200px;
@@ -301,11 +300,11 @@
   }
 
   .col-25 {
-        width: calc(50% - 8px);
+    width: calc(50% - 8px);
   }
 
   .col-50 {
-        width: 100%;
+    width: 100%;
   }
   
 }
@@ -313,7 +312,7 @@
 @media screen and (max-width : 575px) {
 
   .col-25 {
-        width: 100%;
+    width: 100%;
   }
   
 }
