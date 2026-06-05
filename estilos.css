@@ -57,6 +57,7 @@
   header .container {
       padding: 5rem 2rem 3.5rem;
       display: flex;
+      flex-wrap: nowrap;
       flex-direction: row-reverse;
       justify-content: space-between;
   }
@@ -290,6 +291,7 @@
 @media screen and (max-width : 900px) {
 
   header .container {
+    flex-wrap: wrap;
     justify-content: flex-end;
     padding-top: 2.5rem;
   }
