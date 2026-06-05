@@ -33,7 +33,7 @@ function renderProjects() {
       </div>
     `;
     const wrapper = document.createElement('div');
-    wrapper.className = 'w-25';
+    wrapper.className = 'col-25';
     wrapper.appendChild(card);
     grid.appendChild(wrapper);
   });
