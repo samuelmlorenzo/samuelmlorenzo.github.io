@@ -6,6 +6,7 @@ const projects = [
   { name: "Cycle Optimizer", url: "https://cycleoptimizer.com/pagina-principal" },
   { name: "Syslan", url: "https://www.syslan.es/inicio" },
   { name: "Atenda by Syslan", url: "https://atenda.syslan.es/inicio" },
+  /*{ name: "TPV Electroson", url: "https://samuelmlorenzo.github.io/electroson-tpv/" },*/
   /*{ name: "The Local Guide", url: "https://samuelmlorenzo.github.io/thelocalguide-landing/" },*/
 ];
 
