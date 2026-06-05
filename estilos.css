@@ -57,7 +57,7 @@
   header .container {
       padding: 5rem 2rem 3.5rem;
       display: flex;
-      flex-direction: row-reverde;
+      flex-direction: row-reverse;
       justify-content: space-between;
   }
 
