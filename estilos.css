@@ -57,6 +57,7 @@
   header .container {
       padding: 5rem 2rem 3.5rem;
       display: flex;
+      flex-direction: row-reverde;
       justify-content: space-between;
   }
 
@@ -283,7 +284,15 @@
     font-weight: 300;
   }
 
-@media screen and (max-width : 990px) {
+@media screen and (max-width : 900px) {
+
+  header .container {
+    justify-content: flex-end;
+  }
+
+  .header-right {
+    padding-bottom: 20px;
+  }
 
   .col-25 {
         width: calc(50% - 8px);
