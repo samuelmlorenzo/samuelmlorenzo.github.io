@@ -24,10 +24,16 @@
       max-width: 1200px;
       margin: 0 auto;
       display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+  }
+
+  .col-25 {
+      width: calc(25% - 12px);
   }
 
   .col-50 {
-    width: 50%;
+    width: calc(50% - 8px);
   }
 
   .col-100 {
@@ -167,17 +173,8 @@
     color: inherit;
     display: flex;
     flex-direction: column;
-    width: calc(25% - 12px);
     transition: border-color 0.25s, transform 0.25s, box-shadow 0.25s;
     position: relative;
-  }
-
-  .project-card.w-25 {
-    width: calc(25% - 12px);
-  }
-
-  .project-card.w-50 {
-    width: calc(25% - 16px);
   }
 
   .project-card:hover {
