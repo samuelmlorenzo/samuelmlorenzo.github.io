@@ -291,6 +291,7 @@
 
   header .container {
     justify-content: flex-end;
+    padding-top: 2.5rem;
   }
 
   .header-right {
