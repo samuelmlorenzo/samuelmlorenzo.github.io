@@ -25,6 +25,14 @@
       margin: 0 auto;
   }
 
+  .col-50 {
+    width: 50%;
+  }
+
+  .col-100 {
+    width: 100%;
+  }
+
   header, main, footer {
     width: 100%;
   }
