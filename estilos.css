@@ -172,6 +172,14 @@
     position: relative;
   }
 
+  .project-card.w-25 {
+    width: calc(25% - 12px);
+  }
+
+  .project-card.w-50 {
+    width: calc(25% - 16px);
+  }
+
   .project-card:hover {
     border-color: #ffffff;
     transform: translateY(-3px);
