@@ -285,15 +285,19 @@
 
 @media screen and (max-width : 990px) {
 
-  .project-card {
+  .col-25 {
         width: calc(50% - 8px);
+  }
+
+  .col-50 {
+        width: 100%;
   }
   
 }
 
 @media screen and (max-width : 575px) {
 
-  .project-card {
+  .col-25 {
         width: 100%;
   }
   
