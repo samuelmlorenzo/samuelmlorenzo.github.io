@@ -12,17 +12,14 @@ const projects = [
 
 function renderProjects() {
   const grid = document.getElementById('grid');
-
   projects.forEach(p => {
     const initials = p.name.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase();
     const hostname = new URL(p.url).hostname.replace('www.', '');
-
     const card = document.createElement('a');
     card.href = p.url;
     card.target = '_blank';
     card.rel = 'noopener';
-    card.className = 'project-card w-25';
-
+    card.className = 'project-card';
     card.innerHTML = `
       <div class="card-preview">
         <div class="card-preview-fallback">${initials}</div>
@@ -35,8 +32,10 @@ function renderProjects() {
         <svg viewBox="0 0 24 24"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7,7 17,7 17,17"/></svg>
       </div>
     `;
-
-    grid.appendChild(card);
+    const wrapper = document.createElement('div');
+    wrapper.className = 'w-25';
+    wrapper.appendChild(card);
+    grid.appendChild(wrapper);
   });
 }
 
